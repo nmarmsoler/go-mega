@@ -6,7 +6,7 @@ type LoginMsg struct {
 	Handle string `json:"uh"`
 }
 
-+type QuotaMsg struct {
+type QuotaMsg struct {
 	// Action, should be "uq" for quota request
 	Cmd string `json:"a"`
 	// xfer should be 1
